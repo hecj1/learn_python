@@ -1,15 +1,9 @@
-print('Would you like to continue? "Yes" or "No"? ')
-choice = input()
-if choice == 'Yes':
-    choice
-    print('Continuing...')
+value = input('Would you like to continue? ')
+
+if value == 'y' or value == 'yes':
+    print('Continuing ...')
     print('Complete!')
-elif choice != 'Yes' and choice != 'No':
-    choice
-    print('Please try again and respond with Yes or No.')
-    choice
-elif choice == 'No':
-    choice
+elif value == 'n' or value == 'no':
     print('Exiting')
 else:
-    print('That is all')
+    print('Please try again and respond with yes or no.')
