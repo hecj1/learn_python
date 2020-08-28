@@ -1,7 +1,11 @@
 # Working with 'blocks' of code
-name = 'Alice'
-age = 12
+name = 'Carol'
+age = 3000
 if name == 'Alice':
     print('Hi, Alice')
 elif age < 12:
     print('You are not Alcie, kiddo.')
+elif age > 2000:
+    print('Unlike you, Alice is not an immortal vampire')
+elif age > 100:
+    print('You are not Alice, Grannie')
